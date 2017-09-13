@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p2AakashP</string>
+    <string name="title_activity_read_firstname">ReadFirstnameActivity</string>
+    <string name="title_activity_read_age">ReadAgeActivity</string>
+</resources>
