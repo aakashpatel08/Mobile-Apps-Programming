@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p5AakashP</string>
+    <string name="title_activity_contacts">ContactsActivity</string>
+    <string name="title_activity_department">Department</string>
+</resources>
