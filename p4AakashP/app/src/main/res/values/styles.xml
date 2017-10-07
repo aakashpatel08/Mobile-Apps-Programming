@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DatePickerTheme" parent="android:Theme.Holo.Dialog.MinWidth">
+    </style>
+
+</resources>
