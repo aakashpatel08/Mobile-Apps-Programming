@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/Enter_CityName"
+        android:textSize="25sp"
+        android:hint="Enter City Name..."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/GetWeather_Button"
+        android:text="Get Weather Data"
+        android:textSize="23sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/Enter_CityName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/Weather_Icon"
+        android:layout_below="@id/GetWeather_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_width="80sp"
+        android:layout_height="80sp" />
+    <TextView
+        android:id="@+id/Temperature_TextView"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/Weather_Icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Details_TextView"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/Temperature_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Wind_TextView"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/Details_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ShowMap_Button"
+        android:enabled="false"
+        android:text="Show Map"
+        android:textSize="23sp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/Wind_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
