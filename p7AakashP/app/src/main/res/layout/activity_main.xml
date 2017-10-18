@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/date"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_below="@+id/date"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:format12Hour="hh:mm:ss a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/displayCitName"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/clock"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/displayWeatherIcon"
+        android:layout_below="@+id/displayCitName"
+        android:layout_marginTop="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="80sp"
+        android:layout_height="80sp" />
+    <TextView
+        android:id="@+id/displayTemperature"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/displayWeatherIcon"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/displayDetails"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/displayTemperature"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/displayWindSpeed"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/displayDetails"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
