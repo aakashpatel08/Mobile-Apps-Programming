@@ -11,6 +11,6 @@ p4AakashP - App that collects user info on sign up and displays UCO departments 
 
 p5AakashP - App that demonstrates sending email from list of contacts and sending notification.
 
-p6AakashP - Weather app (restricted to U.S. cities only)
+p6AakashP - Weather app (restricted to U.S. cities only!)
 
 p7AakashP - App that demostrate starting appropriate activities based on certain message received from certain number.
