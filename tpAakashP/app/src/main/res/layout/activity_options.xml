@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F4F">
+
+    <TextView
+        android:id="@+id/MusicLabel"
+        android:text="Music"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/SoundEffectsLabel"
+        android:text="Sound Effects"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/RadioMusic"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/RadioMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/MusicLabel"
+        android:layout_marginTop="5sp">
+        <RadioButton
+            android:id="@+id/MusicOn"
+            android:text="On"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:checked="true"
+            android:onClick="onClickMusicRadioButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/MusicOff"
+            android:text="Off"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="15sp"
+            android:onClick="onClickMusicRadioButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RadioSoundEffects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SoundEffectsLabel"
+        android:layout_marginTop="5sp">
+        <RadioButton
+            android:id="@+id/SoundEffectsOn"
+            android:text="On"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/SoundEffectsOff"
+            android:text="Off"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+
+</RelativeLayout>

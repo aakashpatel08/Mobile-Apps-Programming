@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu">
+
+    <Button
+        android:id="@+id/NewGame"
+        android:text="New Game"
+        android:onClick="onClickNewGame"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/main_menu_buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:layout_width="150sp"
+        android:layout_height="45sp" />
+    <Button
+        android:id="@+id/Controls"
+        android:text="Controls"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/main_menu_buttons"
+        android:layout_below="@+id/NewGame"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="150sp"
+        android:layout_height="45sp" />
+    <Button
+        android:id="@+id/HighScore"
+        android:text="High Score"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/main_menu_buttons"
+        android:layout_below="@+id/Controls"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="150sp"
+        android:layout_height="45sp" />
+    <Button
+        android:id="@+id/Options"
+        android:text="Options"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/main_menu_buttons"
+        android:layout_below="@+id/HighScore"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="150sp"
+        android:layout_height="45sp" />
+    <Button
+        android:id="@+id/Quit"
+        android:text="Quit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@drawable/main_menu_buttons"
+        android:layout_below="@+id/Options"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="150sp"
+        android:layout_height="40sp" />
+
+</RelativeLayout>
